@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+}
+
+body {
+    background-color: #1c89df;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 524px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.top {
+    padding: 5px;
+    display: flex;
+}
+
+.top i {
+    font-size: 48px;
+    color: #2196f3;
+}
+
+.top .titel {
+    font-size: 22px;
+    padding: 7px;
+    font-weight: 600;
+}
+
+.add-task {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.in input {
+    background-color: transparent;
+    padding: 6px;
+    font-size: 18px;
+    width: 178px;
+    border: none;
+    border-bottom: 2px solid #e5e3e3;
+    transition: 0.3s;
+    margin-bottom: 13px;
+}
+
+.in input:focus {
+    border-bottom: 2px solid #03a9f4;
+}
+
+.bt input {
+    border: none;
+    font-size: 21px;
+    padding: 2px;
+    width: 178px;
+    background-color: #1697ff;
+    color: white;
+    height: 39px;
+}
+
+.tasks {
+    overflow-y: scroll;
+    height: 341px;
+    padding: 11px;
+    margin-top: 23px;
+}
+
+.task {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 24px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-task {
+    font-size: 27px;
+}
+
+.controls {
+    font-size: 27px;
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 0px;
+}
+
+.delete {
+    color: red;
+}
+
+.edit {
+    color: #2196f3;
+    margin-left: 19px;
+}
+
+.mesg {
+    display: none;
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+.mesg i{
+    font-size: 57px;
+    color: #1697ff;
+}
+
+.done-true {
+    background-color: #f1f1f1;
+    opacity: 0.4;
+}
