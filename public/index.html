@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>My App</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300&family=Tajawal:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+       <div class="content">
+        <div class="top">
+            <i class='bx bx-task' undefined ></i>
+            <div class="titel">To Do List</div>
+        </div>
+
+        <form method="post" action="/">
+            <div class="add-task">
+
+                <div class="sc1">
+                    <div class="in">
+                        <input type="text" id="task-name" placeholder="task name">
+                    </div>
+                    <div class="in">
+                     <input type="text" id="task-des" placeholder="task description">
+                    </div>    
+                </div>
+                
+                <div class="sc2">
+                    <div class="in">
+                        <input type="date" id="task-date" id="date">
+                    </div>
+                    <div class="bt"><input type="submit" value="Add Task" id="add"></div>
+                </div>
+
+             </div>
+        </form>
+           
+           <div class="tasks"></div>
+
+        </div>
+
+
+       </div>
+       <div class="mesg">
+           <i class='bx bx-check-square'></i>
+           <h1>This is text mesg</h1>
+       </div>
+       <script src="jquery.js"></script>
+       <script src="clint.js"></script>
+    </body>
+</html>
